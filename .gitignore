@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.part
+/models/
+/data/raw/
+revision/neucom_21462_20261104/recovery/downloads/
+revision/neucom_21462_20261104/recovery/runtime/
+revision/neucom_21462_20261104/recovery/rebuilt/
+*.records.jsonl
+*.labels.jsonl
+PRIVATE_*

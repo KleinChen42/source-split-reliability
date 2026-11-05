@@ -1,0 +1,78 @@
+{
+  "repository": "lmms-lab/DocVQA",
+  "revision": "539088ef8a8ada01ac8e2e6d4e372586748a265e",
+  "files": [
+    {
+      "file": "DocVQA/train-00000-of-00012.parquet",
+      "bytes": 616602754
+    },
+    {
+      "file": "DocVQA/train-00001-of-00012.parquet",
+      "bytes": 94630890
+    },
+    {
+      "file": "DocVQA/train-00002-of-00012.parquet",
+      "bytes": 93607033
+    },
+    {
+      "file": "DocVQA/train-00003-of-00012.parquet",
+      "bytes": 327482106
+    },
+    {
+      "file": "DocVQA/train-00004-of-00012.parquet",
+      "bytes": 798907355
+    },
+    {
+      "file": "DocVQA/train-00005-of-00012.parquet",
+      "bytes": 1039426177
+    },
+    {
+      "file": "DocVQA/train-00006-of-00012.parquet",
+      "bytes": 1010826516
+    },
+    {
+      "file": "DocVQA/train-00007-of-00012.parquet",
+      "bytes": 1159424589
+    },
+    {
+      "file": "DocVQA/train-00008-of-00012.parquet",
+      "bytes": 417595455
+    },
+    {
+      "file": "DocVQA/train-00009-of-00012.parquet",
+      "bytes": 730465380
+    },
+    {
+      "file": "DocVQA/train-00010-of-00012.parquet",
+      "bytes": 309937202
+    },
+    {
+      "file": "DocVQA/train-00011-of-00012.parquet",
+      "bytes": 793766611
+    },
+    {
+      "file": "DocVQA/validation-00000-of-00006.parquet",
+      "bytes": 114817746
+    },
+    {
+      "file": "DocVQA/validation-00001-of-00006.parquet",
+      "bytes": 160435747
+    },
+    {
+      "file": "DocVQA/validation-00002-of-00006.parquet",
+      "bytes": 184452290
+    },
+    {
+      "file": "DocVQA/validation-00003-of-00006.parquet",
+      "bytes": 177861893
+    },
+    {
+      "file": "DocVQA/validation-00004-of-00006.parquet",
+      "bytes": 206232388
+    },
+    {
+      "file": "DocVQA/validation-00005-of-00006.parquet",
+      "bytes": 212034964
+    }
+  ]
+}

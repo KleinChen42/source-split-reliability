@@ -1,0 +1,23 @@
+{
+  "repository": "zechen-nlp/activitynet_qa",
+  "revision": "ef7ad74f060730c3118ab5c9d48e34678bc03f03",
+  "files": [
+    {
+      "path": "train_videos_merge.z01",
+      "bytes": 26843545600
+    },
+    {
+      "path": "train_videos_merge.z02",
+      "bytes": 26843545600
+    },
+    {
+      "path": "train_videos_merge.zip",
+      "bytes": 9751717636
+    },
+    {
+      "path": "validation_videos.zip",
+      "bytes": 29999529690
+    }
+  ],
+  "status": "PINNED_ARCHIVE_LOCATIONS_FOUND_NO_VIDEOS_DOWNLOADED"
+}

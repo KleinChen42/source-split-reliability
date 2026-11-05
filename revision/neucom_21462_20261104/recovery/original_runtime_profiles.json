@@ -1,0 +1,107 @@
+{
+  "plan_version": "2026-09-10.v4",
+  "models": [
+    {
+      "id": "qwen3_vl_4b",
+      "family": "Qwen3-VL",
+      "revision": "0196dc7bb23f3c742616147c3254d0e4f1207787",
+      "availability_verified": true
+    },
+    {
+      "id": "internvl35_8b",
+      "family": "InternVL3.5",
+      "revision": "ae389705594fd8bb43e41ef4687806eec8d14abd",
+      "availability_verified": true
+    },
+    {
+      "id": "gemma3_12b",
+      "family": "Gemma-3",
+      "revision": "4f007aa2792e8421ff787af1a7d121633d5c1529",
+      "availability_verified": true
+    }
+  ],
+  "prompts": [
+    {
+      "id": "direct_short",
+      "text": "Answer the question with a short answer only.\nQuestion: {question}",
+      "status": "FROZEN_AFTER_COMPLETE_PILOT"
+    },
+    {
+      "id": "task_constrained_short",
+      "text": "Use the {medium} to answer the question. Return only the answer, without explanation.\nQuestion: {question}",
+      "status": "FROZEN_AFTER_COMPLETE_PILOT"
+    }
+  ],
+  "panels": {
+    "image_document": [
+      "qwen3_vl_4b",
+      "internvl35_8b",
+      "gemma3_12b"
+    ],
+    "video": [
+      "qwen3_vl_4b",
+      "internvl35_8b"
+    ]
+  },
+  "generation": {
+    "decoding": "greedy",
+    "max_new_tokens": 64,
+    "image_processor_revision": "pinned_model_manifests_and_per_family_transformers_environment",
+    "video_frames": 8,
+    "video_loader_verified": true,
+    "model_payload_allowlist": [
+      "question",
+      "media_ref",
+      "prompt_id"
+    ],
+    "infrastructure_retries": 2,
+    "model_invalid_output_loss": 1
+  },
+  "runtime_environments": {
+    "qwen3_vl_4b": {
+      "directory": ".venv",
+      "packages": {
+        "torch": "2.4.0",
+        "transformers": "4.57.1",
+        "tokenizers": "0.22.2",
+        "huggingface-hub": "0.36.2",
+        "accelerate": "1.15.0",
+        "torchvision": "0.19.0",
+        "numpy": "1.24.4",
+        "scipy": "1.12.0",
+        "scikit-learn": "1.2.0",
+        "Pillow": "10.2.0"
+      }
+    },
+    "internvl35_8b": {
+      "directory": ".venv",
+      "packages": {
+        "torch": "2.4.0",
+        "transformers": "4.57.1",
+        "tokenizers": "0.22.2",
+        "huggingface-hub": "0.36.2",
+        "accelerate": "1.15.0",
+        "torchvision": "0.19.0",
+        "numpy": "1.24.4",
+        "scipy": "1.12.0",
+        "scikit-learn": "1.2.0",
+        "Pillow": "10.2.0"
+      }
+    },
+    "gemma3_12b": {
+      "directory": ".venv_gemma",
+      "packages": {
+        "torch": "2.4.0",
+        "transformers": "4.50.3",
+        "tokenizers": "0.21.4",
+        "huggingface-hub": "0.36.2",
+        "accelerate": "1.15.0",
+        "torchvision": "0.19.0",
+        "numpy": "1.24.4",
+        "scipy": "1.12.0",
+        "scikit-learn": "1.2.0",
+        "Pillow": "10.2.0"
+      }
+    }
+  }
+}

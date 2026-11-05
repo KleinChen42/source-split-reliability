@@ -1,0 +1,258 @@
+[
+  {
+    "model": "qwen3_vl_4b",
+    "registry": "ModelScope",
+    "repository": "Qwen/Qwen3-VL-4B-Instruct",
+    "revision": "0196dc7bb23f3c742616147c3254d0e4f1207787",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "bytes": 2311
+      },
+      {
+        "path": "chat_template.json",
+        "bytes": 5502
+      },
+      {
+        "path": "config.json",
+        "bytes": 1505
+      },
+      {
+        "path": "configuration.json",
+        "bytes": 73
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 269
+      },
+      {
+        "path": "merges.txt",
+        "bytes": 1671839
+      },
+      {
+        "path": "model-00001-of-00002.safetensors",
+        "bytes": 4967229296
+      },
+      {
+        "path": "model-00002-of-00002.safetensors",
+        "bytes": 3908490048
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "bytes": 64742
+      },
+      {
+        "path": "preprocessor_config.json",
+        "bytes": 390
+      },
+      {
+        "path": "README.md",
+        "bytes": 7133
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 7032403
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 10868
+      },
+      {
+        "path": "video_preprocessor_config.json",
+        "bytes": 385
+      },
+      {
+        "path": "vocab.json",
+        "bytes": 2776833
+      }
+    ]
+  },
+  {
+    "model": "internvl35_8b",
+    "registry": "ModelScope",
+    "repository": "OpenGVLab/InternVL3_5-8B",
+    "revision": "ae389705594fd8bb43e41ef4687806eec8d14abd",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "bytes": 2401
+      },
+      {
+        "path": "added_tokens.json",
+        "bytes": 892
+      },
+      {
+        "path": "chat_template.jinja",
+        "bytes": 475
+      },
+      {
+        "path": "config.json",
+        "bytes": 2481
+      },
+      {
+        "path": "configuration_intern_vit.py",
+        "bytes": 5546
+      },
+      {
+        "path": "configuration_internvl_chat.py",
+        "bytes": 4700
+      },
+      {
+        "path": "conversation.py",
+        "bytes": 15309
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 69
+      },
+      {
+        "path": "merges.txt",
+        "bytes": 1671853
+      },
+      {
+        "path": "model-00001-of-00004.safetensors",
+        "bytes": 4982437672
+      },
+      {
+        "path": "model-00002-of-00004.safetensors",
+        "bytes": 3848612416
+      },
+      {
+        "path": "model-00003-of-00004.safetensors",
+        "bytes": 4999903176
+      },
+      {
+        "path": "model-00004-of-00004.safetensors",
+        "bytes": 3225776168
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "bytes": 68446
+      },
+      {
+        "path": "modeling_intern_vit.py",
+        "bytes": 18151
+      },
+      {
+        "path": "modeling_internvl_chat.py",
+        "bytes": 16518
+      },
+      {
+        "path": "preprocessor_config.json",
+        "bytes": 666
+      },
+      {
+        "path": "processor_config.json",
+        "bytes": 72
+      },
+      {
+        "path": "README.md",
+        "bytes": 53703
+      },
+      {
+        "path": "special_tokens_map.json",
+        "bytes": 744
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 11424300
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 7164
+      },
+      {
+        "path": "video_preprocessor_config.json",
+        "bytes": 1345
+      },
+      {
+        "path": "vocab.json",
+        "bytes": 2776833
+      }
+    ]
+  },
+  {
+    "model": "gemma3_12b",
+    "registry": "ModelScope",
+    "repository": "google/gemma-3-12b-it",
+    "revision": "4f007aa2792e8421ff787af1a7d121633d5c1529",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "bytes": 2127
+      },
+      {
+        "path": "added_tokens.json",
+        "bytes": 35
+      },
+      {
+        "path": "chat_template.json",
+        "bytes": 1615
+      },
+      {
+        "path": "config.json",
+        "bytes": 916
+      },
+      {
+        "path": "configuration.json",
+        "bytes": 76
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 215
+      },
+      {
+        "path": "model-00001-of-00005.safetensors",
+        "bytes": 4979902192
+      },
+      {
+        "path": "model-00002-of-00005.safetensors",
+        "bytes": 4931296592
+      },
+      {
+        "path": "model-00003-of-00005.safetensors",
+        "bytes": 4931296656
+      },
+      {
+        "path": "model-00004-of-00005.safetensors",
+        "bytes": 4931296656
+      },
+      {
+        "path": "model-00005-of-00005.safetensors",
+        "bytes": 4601000928
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "bytes": 108605
+      },
+      {
+        "path": "preprocessor_config.json",
+        "bytes": 570
+      },
+      {
+        "path": "processor_config.json",
+        "bytes": 70
+      },
+      {
+        "path": "README.md",
+        "bytes": 25126
+      },
+      {
+        "path": "special_tokens_map.json",
+        "bytes": 662
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 33384568
+      },
+      {
+        "path": "tokenizer.model",
+        "bytes": 4689074
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 1156999
+      }
+    ]
+  }
+]

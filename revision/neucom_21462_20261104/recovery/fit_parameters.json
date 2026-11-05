@@ -1,0 +1,25 @@
+{
+  "ridge_alphas": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "knn_k": [
+    5,
+    20,
+    50
+  ],
+  "hgb_parameters": {
+    "loss": "squared_error",
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "learning_rate": 0.1,
+    "max_bins": 255
+  }
+}

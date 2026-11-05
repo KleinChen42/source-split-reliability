@@ -1,0 +1,7 @@
+dataset,variant,overlap,J,ci95_low,ci95_high,role
+activitynetqa,Tn,0.0,0.2915979899497488,0.28434070351758794,0.2987939698492462,prospective_secondary_descriptive
+activitynetqa,Tn,0.5,0.29085427135678393,0.28361809045226133,0.29809045226130654,prospective_secondary_descriptive
+activitynetqa,Tn,1.0,0.2905326633165829,0.28333668341708546,0.2977688442211055,prospective_secondary_descriptive
+activitynetqa,TVn,0.0,0.29973869346733667,0.29278291457286426,0.30637286432160804,prospective_secondary_descriptive
+activitynetqa,TVn,0.5,0.2986130653266331,0.29169849246231155,0.30542713567839197,prospective_secondary_descriptive
+activitynetqa,TVn,1.0,0.29905527638190954,0.29200000000000004,0.3061517587939699,prospective_secondary_descriptive

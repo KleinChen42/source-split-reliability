@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED",
+  "family_size": 2436,
+  "bootstrap_draws": 1999,
+  "critical_value": 3.8851602654603083,
+  "nondegenerate_contrasts": 2174,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "family": "Both datasets; 28 cells per dataset (20 implementation controls + 8 strong-learner cells); each cell and all 378 within-dataset cell pairs; each of J_R,J_S,delta. Total 2*(28+378)*3=2436.",
+  "interval": "theta_hat +/- c*sd(theta_star); c is the conservative empirical .95 quantile (method=higher) of max(abs((theta_star-theta_hat)/sd(theta_star))) over the entire family.",
+  "scope": "Approximate joint source-bootstrap intervals conditional on D and the five-seed fitted policy collection. The explored matrix was designed after H. Multiplicity adjustment does not create independent confirmation, repair adaptive search outside this finite family, prove bootstrap coverage, or add development seeds.",
+  "independent_datasets": "Existing independently generated source-bootstrap streams are paired by draw index; identical within-dataset source weights are reused across stages by the saved release design.",
+  "degenerate": "sd <= 1e-12 rows retained and marked bootstrap_degenerate. Zero empirical variation is not a population equivalence certificate.",
+  "no_new_fitting": true,
+  "no_new_holdout": true
+}

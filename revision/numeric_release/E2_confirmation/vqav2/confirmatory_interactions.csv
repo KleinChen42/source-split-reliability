@@ -1,0 +1,3 @@
+dataset,interaction,definition,estimate,ci95_low,ci95_high,family_ci_low,family_ci_high,family_size,family_alpha,excludes_zero,replicates
+vqav2,I1_native_given_visual,delta_TVn-delta_TV,0.0,0.0,0.0,0.0,0.0,4,0.05,False,4999
+vqav2,I2_visual_given_native,delta_TVn-delta_Tn,0.0012887922514330866,0.00035211127941434247,0.0025162089436084525,6.089401007521902e-05,0.0028461185282036387,4,0.05,True,4999

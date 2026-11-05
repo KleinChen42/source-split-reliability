@@ -1,0 +1,17 @@
+dataset,variant,flow,J_minus_native_only,ci95_low,ci95_high,role
+vqav2,T,record_random,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,T,source_disjoint,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,TV,record_random,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,TV,source_disjoint,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,Tn,record_random,-0.0004941688080648265,-0.0030742103282019803,0.0016006515139278372,prespecified_secondary_descriptive_no_family_control
+vqav2,Tn,source_disjoint,0.00079462344336826,-0.0016391354648526764,0.0031039460700309214,prespecified_secondary_descriptive_no_family_control
+vqav2,TVn,record_random,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,TVn,source_disjoint,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,native_only,record_random,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,native_only,source_disjoint,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,constant_only,record_random,0.08773670685906308,0.0820550525593294,0.09294379479578753,prespecified_secondary_descriptive_no_family_control
+vqav2,constant_only,source_disjoint,0.08626606048626215,0.08085566679906753,0.09131366397872777,prespecified_secondary_descriptive_no_family_control
+vqav2,visual_only,record_random,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,visual_only,source_disjoint,0.0,0.0,0.0,prespecified_secondary_descriptive_no_family_control
+vqav2,common_only,record_random,0.05705870725439813,0.05115217231270012,0.06261475673016123,prespecified_secondary_descriptive_no_family_control
+vqav2,common_only,source_disjoint,0.045724451472623044,0.039801335087029974,0.05108824464593633,prespecified_secondary_descriptive_no_family_control
