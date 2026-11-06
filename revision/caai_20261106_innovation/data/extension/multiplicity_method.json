@@ -1,0 +1,9 @@
+{
+  "status": "EXPLORATORY_COMPLETE_FAMILY_INFERENCE",
+  "family_endpoints": 720,
+  "replicates": 1999,
+  "critical95": 3.5609272129825174,
+  "method": "Maximum absolute standardized paired-source-bootstrap deviation; one critical value for all cells and within-dataset/cohort pairs, all three endpoints",
+  "cohort_streams": "Independent deterministic dataset/cohort streams paired by draw number to approximate their product law",
+  "inference_scope": "Conditional on observed D and the finite fitted seed collection; inspected H/H2; not new independent confirmation"
+}

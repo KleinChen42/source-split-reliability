@@ -1,0 +1,38 @@
+{
+  "model": "qwen",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "torch": "2.13.0+cu130",
+  "measured_questions": 64,
+  "warmup_questions": 3,
+  "model_load_seconds": 14.502739530988038,
+  "timing": "Synchronized wall time: preprocessing, transfer, model execution and score/state extraction; excludes disk I/O, frame decoding, loading and warm-up",
+  "source_features": "ResNet is computed once per source and can be shared by its ten questions",
+  "separate_Q": "One Qwen generation step; its answer token is discarded",
+  "answer_changes_with_capture": [],
+  "statistics": {
+    "answer_native__direct_short": {
+      "n": 64,
+      "mean_seconds": 0.47939220457919873,
+      "median_seconds": 0.24659519316628575,
+      "p95_seconds": 1.1887884608935564
+    },
+    "answer_native__task_constrained_short": {
+      "n": 64,
+      "mean_seconds": 0.4911569949617842,
+      "median_seconds": 0.27250825986266136,
+      "p95_seconds": 1.1944970576558263
+    },
+    "answer_native_and_Q__direct_short": {
+      "n": 64,
+      "mean_seconds": 0.4803422433906235,
+      "median_seconds": 0.24659744882956147,
+      "p95_seconds": 1.1933050950989128
+    },
+    "separate_Q_pass__direct_short": {
+      "n": 64,
+      "mean_seconds": 0.4079236447578296,
+      "median_seconds": 0.13222510553896427,
+      "p95_seconds": 1.1162166228052228
+    }
+  }
+}

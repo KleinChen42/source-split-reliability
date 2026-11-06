@@ -5,6 +5,31 @@ the study of fixed-capacity reliability selection on VQA v2, DocVQA and
 ActivityNet-QA. The [versioned release](https://github.com/KleinChen42/source-split-reliability/releases/tag/v1.0.0)
 includes the post-review thirty-seed results.
 
+## Representation invariance and deployment extension (v1.1.0)
+
+The [v1.1.0 release](https://github.com/KleinChen42/source-split-reliability/releases/tag/v1.1.0)
+adds real ActivityNet-QA experiments on the original and additional holdouts:
+
+- Original, fourfold replicated and orthogonally transformed visual features;
+  coordinate, coordinate-balanced and block-energy normalizations.
+- Thirty paired development seeds, four frozen model/prompt candidates and a
+  six-penalty ridge grid: 15,840 ridge fits plus 240 text/native tree fits.
+- Capacity-matched policy selection, finite source-grouped queue replay and
+  synchronized hardware measurements on two RTX 5090 GPUs.
+- A new 720-endpoint interval family with 1,999 paired source draws.
+
+Use the source tree at tag **v1.1.0**, and extract
+**CAAI_Invariance_Experiments_20261106.zip** at its repository root.
+[Experiment and replay instructions](revision/caai_20261106_innovation/experiments/README.md)
+explain how to regenerate numerical summaries without model or media files,
+and how to rerun fits when reconstructed banks are available.
+
+The extension is exploratory on inspected H/H2 cohorts. It evaluates an
+invariance property of the selection procedure; block normalization and
+ridge regression themselves are established methods. Its capacity/queue
+curves are descriptive, and its timings cover the stated model/feature
+boundary rather than end-to-end production service latency.
+
 ## Thirty-seed numerical replay
 
 Download and extract **NEUCOM_21462_Thirty_Seed_Results.zip** from the release.

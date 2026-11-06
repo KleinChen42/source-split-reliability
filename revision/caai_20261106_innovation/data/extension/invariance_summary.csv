@@ -1,0 +1,7 @@
+normalization,encoding,comparisons,max_score_change,changed_sets,mean_changed_records,max_changed_records
+coordinate,repeat4,480,0.001572985385365433,203,0.4979166666666667,3
+coordinate,rotate,480,0.9146877381483903,480,374.38958333333335,505
+coordinate_block,repeat4,480,0.0,0,0.0,0
+coordinate_block,rotate,480,0.5210219993102737,480,183.72083333333333,229
+energy,repeat4,480,0.0,0,0.0,0
+energy,rotate,480,7.388534228880417e-14,0,0.0,0
